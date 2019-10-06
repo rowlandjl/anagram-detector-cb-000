@@ -6,8 +6,9 @@ class Anagram
   end
 
   def match(array)
-    some_word = @word.split("").sort
-    some_word
+    some_word = @word.split("")
+
+    array
   end
 
 end
